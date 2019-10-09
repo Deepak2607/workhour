@@ -24,11 +24,11 @@ if($db)
     }
 
     else
-        echo 'Something went wrong while registering. Please try again later.';
+        echo 'Something went wrong while registering.'mysqli_errors();
 }
 else
 {
-    echo 'Something went wrong while registering. Please try again later.';
+    echo 'Something went wrong while registering.'mysqli_errors();
 
 }
 ?>
